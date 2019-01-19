@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="style.css">
+ <title>NYT search</title>
+</head>
+<body>
+  <div class="jumbotron">
+    <h1 class="display-4 text-center text-white font-weight-bold"><i class="fa fa-newspaper-o"></i> New York Times Search</h1>
+  </div>
+  <div class="card">
+   <div id="card-body">
+    <h3 class="card-title"><i class="fa fa-table"></i>Search Parameters</h3>
+  <form>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Search Term:</label>
+      <input type="email" class="form-control" id="searchTerm" aria-describedby="emailHelp">
+    </div>
+
+    <div class="form-group">
+       Number of records to retrieve:
+      <select id="dropdown">
+        <option value="1">1</option>
+        <option value="5">5</option>
+        <option value="10">10</option>
+    </select>
+    <div class="form-group2">
+      <label for="exampleInputEmail1">Start Year (Optional):</label>
+      <input type="number" class="form-control" id="startYear" aria-describedby="emailHelp">
+    </div>
+    <div class="form-group2">
+      <label for="exampleInputEmail1">End Year(Optional):</label>
+      <input type="number" class="form-control" id="endYear" aria-describedby="emailHelp">
+      <section id="search" class="button"><i id="search" class="fa fa-search"></i>Search</section>
+      <section id="clear" class="button"><i class="fa fa-trash"></i>Clear Results</section>
+    </div>
+    </div>
+    <!-- <div class="form-group form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button> -->
+  </form>
+  </div>
+  </div>
+  <div class="card">
+    <div id="card-body">
+     <h3 class="card-title"><i class="fa fa-table"></i>Top Articles</h3>
+     <br>
+     </div>
+     </div>
+     <br>
+     <hr>
+     <div id="love" class="text-center font-weight-bold">Made with lots and lots of <i class="fa fa-heart"></i></div>
+     <br>
+ <script src="game.js"></script>
+</body>
+</html>
