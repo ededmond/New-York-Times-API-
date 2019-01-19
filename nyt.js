@@ -45,13 +45,12 @@ function search(term,limit,startYear,endYear) {
     })
 }
 $("#search").on("click",function() {
-    var term = $("#term").val();
-    var limit = $("#limit").val();
-    var startDate = $("#start")val();
-    var endDate = $("#end").val();
+    var term = $("#searchTerm").val();
+    var limit = $("#dropdown").val();
+    var startDate = $("#startYear").val();
+    var endDate = $("#endYear").val();
     search(term,limit,startDate,endDate);
 })
 $("#clear").on("click",function() {
     articleSection.html("");
 })
-search("Trump",5,4092,4093);

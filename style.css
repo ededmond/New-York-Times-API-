@@ -47,3 +47,11 @@ i {
 #search {
  margin-left: 10px;
 }
+.loadingGif {
+    height:20vw;
+    width: 20vw;
+    position :fixed;
+    top :20vw;
+    left: 40vw;
+    z-index: 5;
+}
