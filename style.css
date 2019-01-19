@@ -55,3 +55,10 @@ i {
     left: 40vw;
     z-index: 5;
 }
+.article {
+    margin:10px;
+    padding:10px;
+    border:solid lightgray 1px;
+    border-radius: 5px;
+    
+}

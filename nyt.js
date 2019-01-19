@@ -34,7 +34,7 @@ function search(term,limit,startYear,endYear) {
             }
             var article = $("<div>");
             article.addClass("article");
-            var title = $("<h1>").text(data[i].headline.main);
+            var title = $("<h6>").text(data[i].headline.main);
             var snip = $("<p>").text(data[i].snippet);
             var url = $("<a>").text("read more").attr("href",data[i].web_url)
             var dateString = data[i].pub_date.split("T")[0];
