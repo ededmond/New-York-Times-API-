@@ -1,0 +1,49 @@
+.jumbotron {
+ background-color: darkblue;
+}
+.icon {
+ height: 50px;
+ width: 50px;
+}
+body {
+ width: 90vw;
+ margin: 0 auto;
+}
+#dropdown {
+ width: 100%;
+}
+.card-title {
+ background-color: lightgrey;
+ line-height: 150%
+}
+.form-group {
+ width: 95%;
+ margin: 0 auto;
+ 
+ /* margin-left: 10px;
+ margin-right: 10px; */
+}
+.card {
+ margin-top: 20px;
+ padding-bottom: 10px;
+}
+.button {
+ display: inline;
+}
+.button:hover {
+ cursor: pointer;
+}
+select {
+-ms-box-sizing:content-box;
+-moz-box-sizing:content-box;
+-webkit-box-sizing:content-box; 
+box-sizing:content-box;
+height: 40px;
+}
+i {
+ margin-left: 30px;
+ margin-right: 5px;
+}
+#search {
+ margin-left: 10px;
+}
